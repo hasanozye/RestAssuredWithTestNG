@@ -1,4 +1,4 @@
-package firstpackage;
+package day1;
 
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 public class HTTPRequests {
